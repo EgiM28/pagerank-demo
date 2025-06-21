@@ -10,8 +10,7 @@ st.set_page_config(layout="wide")
 st.title("Interactive PageRank Demo")
 
 st.markdown("""
-Change the structure of the web graph and the damping factor (β),  
-then see how PageRank scores and node sizes update in real time :)
+Change the structure of the web graph and the damping factor (β), then see how PageRank scores and node sizes update in real time :)
 """)
 
 st.sidebar.header("Graph settings")
